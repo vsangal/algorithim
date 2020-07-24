@@ -59,10 +59,8 @@ public class findLongetRunningSequeuceForASum {
 			if (temp > targetSum) {
 
 				counter++;
-				System.out.println("temp = " + temp + " counter = " + counter + " arr[counter] == " + arr[counter]);
 				temp = temp - arr[counter];
-				System.out.println("temp = " + temp);
-
+				
 				// this is required.. as what is after Substract the value at the iterator from the sum 
 				// result is equal to target.. We do want to count that sequence. 
 				if (temp == targetSum) {
