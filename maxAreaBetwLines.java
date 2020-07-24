@@ -1,4 +1,6 @@
-
+/*
+ * Find the max area between the two points 
+ */
 public class maxAreaBetwLines {
 
 	    public static void main(String[] argv) {
