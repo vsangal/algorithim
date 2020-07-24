@@ -4,7 +4,7 @@
  * O(n2)
  */
 
-public class findLongestSequenceForGivenTarget {
+public class FindLongestSequenceForGivenTarget {
 
 	public static void main(String[] args) {
 

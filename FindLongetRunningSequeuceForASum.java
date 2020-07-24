@@ -3,7 +3,7 @@
 /* Return the length of the longest eligible subarray (such that sum of all elements <= target). */
 /* Solution = Single for loop */
 /* O(n) */
-public class findLongetRunningSequeuceForASum {
+public class FindLongetRunningSequeuceForASum {
 
 	public static void main(String[] args) {
 
