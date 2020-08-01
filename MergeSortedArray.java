@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /* Merge two sorted array */
 public class MergeSortedArray {
 
@@ -5,13 +7,14 @@ public class MergeSortedArray {
 
 		int[] arr1 = { 4, 6, 8, 10, 12 };
 		int[] arr2 = { 3, 5, 7, 11, 13, 15, 17 };
-		int[] sortedArray = new int[arr1.length + arr2.length];
+		int[] mergedArray = new int[arr1.length + arr2.length];
 
-		sortedArray = mergeArray(arr1, arr2);
+		System.out.println("arr1 = " + Arrays.toString(arr1));
+		System.out.println("arr2 = " + Arrays.toString(arr2));
+		mergedArray = mergeArray(arr1, arr2);
 		
-		for (int m = 0; m < sortedArray.length; m++) {
-			System.out.print(sortedArray[m] + "," );
-		}
+		System.out.print("Merged Arrray = " + Arrays.toString(mergedArray));
+		
 	}
 
 	static int[] mergeArray(int[] arr1, int[] arr2) {
