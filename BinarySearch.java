@@ -24,7 +24,7 @@ public class BinarySearch {
          
     	BinarySearch mbs = new BinarySearch();
         int[] arr = {2, 4, 6, 8, 10, 12, 14, 16};
-        System.out.println("Key 14's position: "+ mbs.binarySearch(arr, 14));
+        System.out.println("Key 14's position: "+ mbs.binarySearch(arr, 6));
         int[] arr1 = {6,34,78,123,432,900};
         System.out.println("Key 432's position: "+mbs.binarySearch(arr1, 432));
     }
